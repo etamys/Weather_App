@@ -155,7 +155,7 @@ public class DetailActivity extends AppCompatActivity implements
         int id = item.getItemId();
 
         /* Settings menu item clicked */
-        if (id == R.id.setting_id) {
+        if (id == R.id.action_settings) {
             startActivity(new Intent(this, SettingsActivity.class));
             return true;
         }
